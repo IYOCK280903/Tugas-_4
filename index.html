@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 4 - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Tugas 4 - JavaScript</h1>
+    </div>
+
+    <div id="form-container">
+        <label>Nama:</label>
+        <input type="text" id="nama">
+        <div id="error-nama" class="error"></div>
+
+        <label>Jumlah Pilihan:</label>
+        <input type="number" id="jumlahPilihan" min="1">
+        <div id="error-jumlah" class="error"></div>
+
+        <button onclick="step1()">OK</button>
+    </div>
+
+    <div id="pilihan-container"></div>
+    <div id="radio-container"></div>
+    <div class="result" id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
